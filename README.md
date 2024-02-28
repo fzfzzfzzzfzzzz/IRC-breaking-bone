@@ -1,0 +1,3 @@
+# Knee X-ray Image Classification for Osteopenia / Osteoporosis Detection
+This repository contains code and resources for a project focused on investigating the effectiveness of image classification models for identifying osteopenia and osteoporosis in knee X-ray images. The goal is to develop a reliable and accurate model that can assist in diagnosing these conditions from X-ray images.
+## Currently under development...
