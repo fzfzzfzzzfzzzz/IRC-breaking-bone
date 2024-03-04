@@ -1,0 +1,13 @@
+<html lang="en">
+<body>
+    <h1>{{classifier}}</h1>
+    {% if img %}
+    <img src="data:image/jpeg;base64,{{ img }}">
+    {% endif %}
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form }}
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
