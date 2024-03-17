@@ -6,7 +6,7 @@ The 'dataset2' folder contains a collection of 744 single knee X-ray images take
 The 'Efficientnet-b0.ipynb' notebook implements the efficientnet-b0 model (Tan, M. & Le, Q.V. 2019) using k-fold cross-validation (k=5) on the aformentioned dataset, achieving a mean accuracy of 95%. In addition, a demo single image classifier using a trained model has been added along with a Grad-CAM overlay.
 
 ## Model 2: YoloV5
-The 'yolov5.ipynb' notebook trains a YOLOv5 model (Jocher, G. et al. 2022) using the dataset through random split using Roboflow. Validation confirms the model has an accuracy of 82%.
+The notebook 'yolov5.ipynb' utilizes a pre-trained YOLOv5 model (Jocher, G. et al. 2022) and trains it on a dataset using a random split, facilitated by Roboflow. Validation confirms the model has an accuracy of 82%.
 
 ## App deployment
 The files in the 'idrc' and 'Swift App' folders contains an Apple app interface using Swift which deploys the trained efficientnet-b0 model along with a Grad-CAM visualization onto any uploaded image. In addition, this application can directly interface with Apple Vision Pro.
