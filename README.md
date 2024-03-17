@@ -12,15 +12,13 @@ The 'yolov5.ipynb' notebook trains a YOLOv5 model (Jocher, G. et al. 2022) using
 The files in the 'idrc' and 'Swift App' folders contains an Apple app interface using Swift which deploys the trained efficientnet-b0 model along with a Grad-CAM visualization onto any uploaded image. In addition, this application can directly interface with Apple Vision Pro.
 
 ## Contributors
-Freddie Nicholson
-James Pang
-Michael Fang
+Freddie Nicholson<br />
+James Pang<br />
+Michael Fang<br />
 Amandeep Kaur
 
 ## References
-Tan, M. and Le, Q.V. (2019). EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks. [online] arXiv.org. Available at: https://arxiv.org/abs/1905.11946.
+Tan, M. and Le, Q.V. (2019). EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks. [online] arXiv.org. Available at: https://arxiv.org/abs/1905.11946.<br />
 Jocher, G., Chaurasia, A., Stoken, A., Borovec, J., NanoCode012, Kwon, Y., Michael, K., TaoXie, Fang, J., Imyhxy, Lorna, 曾逸夫Z.Y., Wong, C., V, A., Montes, D., Wang, Z., Fati, C., Nadar, J., Laughing and UnglvKitDe (2022). ultralytics/yolov5: v7.0 - YOLOv5 SOTA Realtime Instance Segmentation. Zenodo. [online] doi:https://doi.org/10.5281/zenodo.7347926.
 
 ‌
-
-## Currently under development...
