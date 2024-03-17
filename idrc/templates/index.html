@@ -1,6 +1,6 @@
 <html lang="en">
 <body>
-    <h1>{{classifier}}</h1>
+    <h1>{{classifier}} {% if conf %} ({{conf}}) {% endif %}</h1>
     {% if img %}
     <img src="data:image/jpeg;base64,{{ img }}">
     {% endif %}
